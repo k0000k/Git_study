@@ -1,0 +1,21 @@
+처음 할 때는 1~6하기, upstream이 이미 지정되어 있을때 fetch하려면 4~6진행
+
+
+
+1. 현재 연결된 원격 저장소 확인하기. 처음엔 본인 repo만 뜸!
+git remote -v
+
+2. upstream 생성하기
+git remote add upstream <upstream repo 주소>
+
+3. 다시 확인해보기. 내 저장소랑 upstream이 연결되어 있다고 뜰거임.
+git remote -v
+
+4. upstream 다운로드 받기
+git fetch upstream
+
+5. 내 로컬 저장소에 upstream을 병합하기
+git merge upstream/main
+
+6. github에 push하기
+git push origin main

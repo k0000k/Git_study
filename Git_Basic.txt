@@ -1,0 +1,11 @@
+1. 로컬 git 폴더에 저장소 환경 구성하기
+git clone <repo주소>
+
+2. 수정사항 반영?
+git add <파일명>
+
+3. 커밋추가
+git commit -m "내용입력"
+
+4. 변경사항 확인
+git status

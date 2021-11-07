@@ -1,0 +1,5 @@
+1. 저장소 정보 확인
+git remote -v
+
+2. Github에 올리기
+git push origin main
