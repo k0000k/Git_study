@@ -5,6 +5,3 @@ git config --system --unset credential.helper
 2. Github 계정 로그인
 git config --global user.email "이메일"
 git config --global user.email "영문이름"
-
-3. 로컬 git 폴더에 repo 복사해오기
-git clone <repo주소>
