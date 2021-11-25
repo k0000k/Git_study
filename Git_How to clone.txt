@@ -1,0 +1,7 @@
+1-1. 로컬 git 폴더에 repo 복사해오기
+git clone <repo주소>
+
+
+1-2. 일부 브랜치만 clone하는 명령어
+git clone --branch <브랜치 태그> <repo주소>
+
