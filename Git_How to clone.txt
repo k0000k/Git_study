@@ -4,4 +4,5 @@ git clone <repo주소>
 
 1-2. 일부 브랜치만 clone하는 명령어
 git clone --branch <브랜치 태그> <repo주소>
-
+또는
+git clone -b <브랜치 태그> <repo주소>
