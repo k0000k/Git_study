@@ -1,0 +1,8 @@
+1. git init
+해당 폴더의 git 저장소 정보를 초기화 함
+
+2. git remote add origin {clone용 url}
+origin을 해당 git repo와 연동
+
+3. git push -u origin main
+변경 사항을 푸시
